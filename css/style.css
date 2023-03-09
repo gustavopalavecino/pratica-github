@@ -1,0 +1,196 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Anton", sans-serif;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+body header {
+  background-color: black;
+  padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+body header .flex-container {
+  display: flex;
+  flex-direction: row;
+}
+body header .flex-container .container {
+  width: 80%;
+  margin: 0 auto;
+}
+body header .flex-container .container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .flex-container .container .row .colorlink {
+  color: yellow !important;
+}
+body header .flex-container .container .row .colorlink .nav__item {
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: end;
+}
+body header .flex-container .container .row .colorlink .nav__item .nav__link {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  margin: 1rem;
+}
+
+#seccion_principal {
+  background-color: black;
+  padding-top: 8rem;
+}
+#seccion_principal .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#seccion_principal .container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#seccion_principal .container .row .titulo1 {
+  color: yellow;
+  font-size: 2rem;
+  text-align: center;
+}
+#seccion_principal .container .row .titulo1 .texto {
+  color: white !important;
+  padding: 2rem;
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+#seccion_principal .container .row .titulo1 .texto .img_principal {
+  text-align: center;
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    color: white;
+  }
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+#seccion_secundaria {
+  background-color: yellow;
+  color: black !important;
+  text-align: center;
+  padding-top: 1rem;
+}
+#seccion_secundaria .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#seccion_secundaria .container .footer {
+  padding-top: 1rem;
+}
+
+.fa-brands {
+  padding: 1rem;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container .card-title {
+  color: black;
+}
+.container .card-title .card-text {
+  color: black !important;
+}
+.container .card-title .card-text .imagencard {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo2 {
+  color: yellow;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.titulo_tabla1 {
+  background: yellow;
+}
+
+.seccion_tabla {
+  background: white;
+  font-size: 150%;
+}
+
+.imagenes {
+  display: inline-block;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto_indu {
+  color: white;
+  padding: 2rem;
+  font-size: 200%;
+}
+
+.titulo3 {
+  color: yellow;
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+
+.texto_art {
+  color: white;
+  padding: 2rem;
+  font-size: 200%;
+}
+
+.tex_imagenes {
+  color: white;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.redes {
+  text-align: center;
+  font-size: 400%;
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.mapa {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

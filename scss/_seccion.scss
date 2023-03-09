@@ -1,0 +1,35 @@
+#seccion_principal {
+  background-color: black;
+  padding-top: 8rem;
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .titulo1 {
+        color: yellow;
+        font-size: 2rem;
+        text-align: center;
+
+        .texto {
+          color: white !important;
+          padding: 2rem;
+          display: inline-block;
+          margin-top: 1.2rem;
+          padding-bottom: 2rem;
+          text-align: center;
+          .img_principal {
+            text-align: center;
+            height: auto;
+            width: auto;
+            max-height: 100px;
+            max-width: 100px;
+          }
+        }
+      }
+    }
+  }
+}
